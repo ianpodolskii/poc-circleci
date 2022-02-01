@@ -28,6 +28,10 @@ jobs:
     steps:
       - checkout
 
+      - run: git submodule --quiet update --rebase --remote --init
+
+      - run: cat poc-circleci-submodule/apis/test.yaml
+
       # Download and cache dependencies
       - restore_cache:
           keys:

@@ -1,0 +1,3 @@
+[submodule "poc-circleci-submodule"]
+	path = poc-circleci-submodule
+	url = https://github.com/ianpodolskii/poc-circleci-submodule.git
