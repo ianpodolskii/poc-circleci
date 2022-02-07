@@ -32,4 +32,4 @@ jobs:
 
       - run: cat poc-circleci-submodule/apis/test.yaml
 
-      - run: '[ -d test ] || mkdir test'
+      - run: '[ -d a/test ] || mkdir a/test'
